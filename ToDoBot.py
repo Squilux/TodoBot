@@ -8,7 +8,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
 
-BOT_TOKEN = '8843466514:AAHJ8LG7chY7BsHX9-8qw6c9SkgYowppsLY'
+BOT_TOKEN = 'BOT_TOKEN'
 class AddTask(StatesGroup):
     WaitingForTask = State()
     WaitingForDelete = State()
