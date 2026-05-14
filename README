@@ -1,0 +1,75 @@
+ToDoBot
+
+Simple Telegram ToDo bot built with Python and aiogram.
+
+Features
+
+* Add tasks
+* View task list
+* Delete tasks
+* FSM (Finite State Machine)
+* Telegram keyboard buttons
+
+Stack
+
+* Python 3
+* aiogram 3
+* FSMContext
+
+Commands
+
+/start
+
+Start the bot.
+
+/add
+
+Add a new task.
+
+Example:
+
+/add Buy milk
+
+/list
+
+Show all tasks.
+
+Buttons
+
+The bot supports Telegram keyboard buttons:
+
+* Add task
+* Task list
+* Delete task
+
+Create virtual environment:
+
+python -m venv .venv
+
+Activate venv:
+
+macOS/Linux
+
+source .venv/bin/activate
+
+Windows
+
+.venv\\Scripts\\activate
+
+Install dependencies:
+
+pip install aiogram
+
+Run
+
+python ToDoBot.py
+
+Important
+
+Do not store your Telegram Bot Token in a public repository.
+
+It is better to use a .env file.
+
+Author
+
+Squilux
